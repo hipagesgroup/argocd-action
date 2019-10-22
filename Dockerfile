@@ -1,4 +1,4 @@
-ARG ARGOCD_VERSION=1.2.2
+ARG ARGOCD_VERSION=1.3.0-rc1
 
 FROM argoproj/argocd:v${ARGOCD_VERSION} AS argocd
 
