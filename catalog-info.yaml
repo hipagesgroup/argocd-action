@@ -1,13 +1,11 @@
 apiVersion: backstage.io/v1alpha1
-      kind: Component
-      metadata:
-        name: argocd-action
-        description: >-
-          GitHub Action for ArgoCD
-        annotations:
-          github.com/project-slug: hipagesgroup/argocd-action
-      spec:
-        type: service
-        lifecycle: experimental
-        owner: platform
-      
+kind: Component
+metadata:
+  name: argocd-action
+  description: GitHub Action for ArgoCD
+  annotations:
+    github.com/project-slug: hipagesgroup/argocd-action
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform
