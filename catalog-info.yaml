@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: hipagesgroup/argocd-action
 spec:
-  type: service
-  lifecycle: experimental
+  type: library
+  lifecycle: production
   owner: platform
+  system: infrastructure-as-code
